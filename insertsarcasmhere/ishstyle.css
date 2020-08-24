@@ -1,0 +1,129 @@
+:root{
+	font-size: 16px;
+	font-family:"PT Sans Caption", sans-serif;
+	--main-alignment: center;
+	--color-primary: #000000;
+	--color-secondary: #FFFFFF;
+	}
+	
+		body{
+			background-color: white;
+			margin: 0;
+			padding: 0;
+		}
+		
+		body::-webkit-scrollbar{
+			width: 0.25rem;
+		}
+		
+		body::-webkit-scrollbar-track{
+			background: #1e1e24;
+		}
+		
+		body::-webkit-scrollbar-thumb{
+			background: var(--color-secondary);
+		}
+		
+		img{
+			width: 40rem;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: auto;
+		}
+		
+		main{
+			margin-left: 6rem;
+			padding: 5rem;
+			transition: margin-left .5s;
+		}
+		
+		p{
+			line-height: 3rem;
+			text-indent: 2rem;
+			margin-bottom: 3rem;
+		}
+			.header-border{
+		 font-family: var(--content-font);
+		 border: .20rem solid #000000;
+		 text-align: var(--main-alignment);
+		 font-size: 1.5rem; 
+		}
+		
+		.blog-title{
+			font-size: 5rem;
+		}
+		
+		.article-title{
+			font-size: 3rem;
+		}
+
+
+/* The side navigation menu */
+.sidenav {
+  height: 55%; 
+  width: 0; /* Change via navbarScript */
+  position: fixed; 
+  z-index: 1;
+  top: 0; 
+  left: 0;
+  background-color: var(--color-primary);
+  overflow-x: hidden; 
+  padding-top: 5rem; 
+  transition: 0.8s; 
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 1rem 1rem 1rem 2rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 1rem;}
+  .sidenav a {font-size: 1rem;}
+}
+
+/* Hamburger menu art */
+.hamburger {
+  width: 3rem;
+  height: .5rem;
+  background-color: black;
+  color: white;
+  margin: .4rem .4rem;
+}
+
+/* Fixed Position for Hamburger menu icon */
+.follow{
+	position: fixed;
+}
+
+ /* Text Border */
+.content{
+border: .2rem solid black;
+margin-bottom: 3rem;
+}
+
+/* Images */
+.image-container{
+	display: flex;
+	align-items: center;
+}
