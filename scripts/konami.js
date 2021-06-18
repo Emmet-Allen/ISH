@@ -15,7 +15,7 @@ onKonamiCode(function () {
 	alert('Either you spend too much time playing video games or you looked at the source code.');
 	console.log("I'm watching you.");
 	
-	var audio = new Audio('FF_victory.mp3');
+	var audio = new Audio('https://github.com/Emmet-Allen/ISH/blob/master/FF_victory.mp3?raw=true');
 	audio.play();
 		
 	})
