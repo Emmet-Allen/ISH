@@ -1,4 +1,4 @@
-# Insert Sarcasm Here (ISH)
+# Insert Sarcasm Here (ISH): https://emmet-allen.github.io/ISH/
 Responsive Blog Design, built with HTML 5, CSS 3, and Vanilla JS. Includes "Konami Code" easter eggs. 
 
 This is a blog concept that I built for a blog that I wanted to start up. I wanted it to be more daily diary/reflection
